@@ -8,7 +8,7 @@ import uvicorn
 from fastapi import FastAPI, UploadFile, File
 # from pydantic import BaseModel
 
-subscription_key = "9f4ab505de56495da6aa7a78a3c9cb60"
+subscription_key = "********"
 endpoint = "https://ocr-handwriting-extraction.cognitiveservices.azure.com/"
 
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
